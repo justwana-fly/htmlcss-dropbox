@@ -19,4 +19,42 @@ ul {
 	--color-florida: #0093ce;
 	--color-designit-green: #a2d39b;
 }
+/* header navbar */
+
+.fixed {
+    position: fixed;
+}
+.flex{
+    display: flex;
+}
+.navbar {
+    flex-direction: row;
+    overflow: hidden;
+    background-color:var(--color-designit);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    display: block;
+    color:var(--color-footer);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background:lightgray;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
 
