@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+ul {
+    font-style: none;
+}
+:root {
+	--color-jumbotron-blue: #b4d0e7;
+	--color-footer: #000000;
+	--color-button-blue: #0061ff;
+	--color-yellow: #ffd830;
+	--color-dark-red: #d5001f;
+	--color-lonely-planet: #0d2481;
+	--color-designit: #f5f5f5;
+	--color-asu: #61082b;
+	--color-florida: #0093ce;
+	--color-designit-green: #a2d39b;
+}
+
