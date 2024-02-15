@@ -20,15 +20,28 @@ ul {
 	--color-designit-green: #a2d39b;
 }
 /* header navbar */
+.navbar img{
+    width: 100px;
+    height: 35px;
+    margin: 7px 20px;
+  
 
+}
 .fixed {
     position: fixed;
 }
 .flex{
     display: flex;
 }
+.fd-row {
+  flex-direction: row;  
+}
+.s-between{
+    justify-content: space-between;
+}
 .navbar {
-    flex-direction: row;
+    align-items: center;
+    height:60px;
     overflow: hidden;
     background-color:var(--color-designit);
     position: fixed;
@@ -46,6 +59,15 @@ ul {
 .navbar a:hover {
     background:lightgray;
     color: black;
+}
+.nav-button{
+    width: 75px;
+    height: 30px;
+    background-color:var(--color-button-blue);
+    border: var(--color-button-blue);
+    color: var(--color-designit);
+    font-weight: 600;
+    margin: 10px 20px;
 }
 
 
