@@ -9,8 +9,8 @@
     margin: 0 auto;
     padding: 50px;
 }
-ul {
-    font-style: none;
+ul{
+    list-style-type: none;
 }
 :root {
 	--color-jumbotron-blue: #b4d0e7;
@@ -25,6 +25,9 @@ ul {
 	--color-designit-green: #a2d39b;
 }
 /* header navbar */
+.strong{
+    font-weight: 700;
+}
 .margin-h{
     margin: 40px 0px 40px 0px;
 }
@@ -32,7 +35,13 @@ ul {
     margin:0px 40px 0px 40px;
 }
 .padding{
+    padding: 20px;
+}
+.padding-h30{
     padding: 30px 0px 30px 0px;
+}
+.padding-h10{
+    padding: 10px 0px 10px 0px;
 }
 .fixed {
     position: fixed;
@@ -111,6 +120,12 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 .left i {
     font-size: 50px;
 }
@@ -120,9 +135,6 @@ h1{
 }
 .section-one{
     padding-top: 40px;
-}
-h2{
-    font-size: 40px;
 }
 .radio{
     margin-right: 40px;
@@ -145,8 +157,11 @@ h2{
     border: 1px solid black;
     width: calc(100% / 3);
     height: 700px;
-    text-align: center;
+    
     /* padding: 0px 20px 0 20px; */
+}
+.inline{
+    display: inline-block;
 }
 
 
