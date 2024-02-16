@@ -24,7 +24,6 @@ ul{
 	--color-florida: #0093ce;
 	--color-designit-green: #a2d39b;
 }
-/* header navbar */
 .strong{
     font-weight: 700;
 }
@@ -91,12 +90,10 @@ ul{
     padding-top: 100px;
     background-color: var(--color-jumbotron-blue);
 }
-
 .hero{
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .left{
    width: 40%;
 }
@@ -152,19 +149,20 @@ h3{
     padding: 12px;
     justify-content: center;
 }
-
 .row-h{
     border: 1px solid black;
     width: calc(100% / 3);
     height: 700px;
-    
-    /* padding: 0px 20px 0 20px; */
 }
 .inline{
     display: inline;
 }
 .width{
     width: 100%;
+}
+.underline{
+    border-bottom: 1px solid black;
+    width: 60px;
 }
 
 
