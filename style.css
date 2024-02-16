@@ -161,10 +161,10 @@ h3{
     /* padding: 0px 20px 0 20px; */
 }
 .inline{
-    display: inline-block;
+    display: inline;
 }
 .width{
-   width:100%;
+    width: 100%;
 }
 
 
