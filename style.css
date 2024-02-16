@@ -5,8 +5,9 @@
     font-family: "Open Sans", sans-serif;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 50px;
 }
 ul {
     font-style: none;
@@ -24,7 +25,9 @@ ul {
 	--color-designit-green: #a2d39b;
 }
 /* header navbar */
-
+.margin{
+    margin: 40px 0px 40px 0px;
+}
 .padding{
     padding: 30px 0px 30px 0px;
 }
@@ -43,11 +46,11 @@ ul {
 .navbar {
     align-items: center;
     height:60px;
-    overflow: hidden;
-    background-color:var(--color-designit);
-    position: fixed;
     top: 0;
     width: 100%;
+    background-color:var(--color-designit);
+    position: fixed;
+    z-index: 1000;
 }
 .navbar a {
     display: block;
@@ -108,7 +111,20 @@ h1{
 .left i {
     font-size: 50px;
 }
-
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-one{
+    padding-top: 40px;
+}
+h2{
+    font-size: 40px;
+}
+.radio{
+    margin-right: 40px;
+    display: inline;
+}
 
 
 
