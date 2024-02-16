@@ -25,8 +25,11 @@ ul {
 	--color-designit-green: #a2d39b;
 }
 /* header navbar */
-.margin{
+.margin-h{
     margin: 40px 0px 40px 0px;
+}
+.margin-w{
+    margin:0px 40px 0px 40px;
 }
 .padding{
     padding: 30px 0px 30px 0px;
@@ -125,6 +128,27 @@ h2{
     margin-right: 40px;
     display: inline;
 }
+.section-two{
+    display: flex;
+    justify-content: space-between;
+}
+.border-bottom {
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.border-bottom i {
+    padding: 12px;
+    justify-content: center;
+}
+
+.row-h{
+    border: 1px solid black;
+    width: calc(100% / 3);
+    height: 700px;
+    text-align: center;
+    /* padding: 0px 20px 0 20px; */
+}
+
 
 
 
