@@ -25,7 +25,7 @@ ul{
 	--color-designit-green: #a2d39b;
 }
 .strong{
-    font-weight: 700;
+    font-weight: 650;
 }
 .margin-h{
     margin: 40px 0px 40px 0px;
@@ -152,7 +152,7 @@ h3{
 .row-h{
     border: 1px solid black;
     width: calc(100% / 3);
-    height: 700px;
+    height: 1000px;
 }
 .inline{
     display: inline;
@@ -164,7 +164,6 @@ h3{
     border-bottom: 1px solid black;
     width: 60px;
 }
-
 
 
 
