@@ -132,7 +132,7 @@ h3 {
   font-size: 50px;
 }
 .main {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .section-one {
@@ -228,11 +228,30 @@ h3 {
  
 }
 .eight-left{
-  width: 60%;
-  padding-top: 70px;
-  padding-left: 200px;
+  width: 50%;
+  margin-top: 75px;
+  
 }
 .eight-right{
-  width: 40%;
-  padding-top: 50px;
+  
+  margin-top: 40px;
+}
+.section-nine{
+  padding-top: 100px;
+}
+.section-nine ul li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.none{
+  display: none;
+}
+.row{
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.section-nine i{
+padding-left: 365px;
 }
