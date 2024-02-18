@@ -179,6 +179,18 @@ h3{
     padding-top: 20px;
 }
 
-
+.card{
+    width: calc(100% / 3 - 20px);
+    padding: 20px;
+}
+.card-image img{
+    width: 100%;
+}
+.section-five{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
 
 
