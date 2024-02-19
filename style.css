@@ -5,11 +5,10 @@
   font-family: "Open Sans", sans-serif;
 }
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  
 }
-ul {
+ul, summary {
   list-style-type: none;
 }
 :root {
@@ -72,8 +71,10 @@ ul {
   font-size: 17px;
 }
 .navbar a:hover {
-  background: lightgray;
-  color: black;
+  box-shadow: 8px 8px;
+  box-shadow: #0093ce;
+  background: rgb(124, 216, 233);
+  color: rgb(0, 0, 0);
 }
 .nav-button {
   width: 75px;
@@ -130,10 +131,6 @@ h3 {
 }
 .left i {
   font-size: 50px;
-}
-.main {
-  max-width: 1000px;
-  margin: 0 auto;
 }
 .section-one {
   padding-top: 40px;
@@ -199,8 +196,8 @@ h3 {
   
 }
 .s-seven{
-  width: 467px;
-  height: 467px;
+  width:calc(100% / 3);
+  aspect-ratio: 1/1;
   border: 1px solid black;
 }
 .logos{
@@ -214,28 +211,23 @@ h3 {
   width: 100%;
 }
 .section-eight{
-  
-  
   background-color: var(--color-jumbotron-blue);
-  
-  height: 250px;
-  
+  height: 300px;
+}
+.s-eight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .p-eight{
   color: var(--color-asu);
   font-size: 40px;
   font-weight: 700;
- 
-}
-.eight-left{
-  width: 50%;
-  margin-top: 75px;
   
 }
-.eight-right{
-  
-  margin-top: 40px;
-}
+
+
 .section-nine{
   padding-top: 100px;
 }
