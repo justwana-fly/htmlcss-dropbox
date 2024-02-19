@@ -8,7 +8,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-ul, summary {
+ul {
   list-style-type: none;
 }
 :root {
@@ -257,8 +257,7 @@ h3 {
 .row{
   width: 100%;
   border: 1px solid gray;
-  margin-bottom: 20px;
-  margin-top: 20px;
+ 
 }
 .section-nine i{
 padding-left: 365px;
@@ -293,4 +292,31 @@ footer li{
 .row-footer{
   width: 150px;
   border: 1px solid gray;
+}
+/* bonus */
+div input {
+  margin-right: 100px;
+}
+
+.check-btn label {
+  display: inline-block;
+}
+
+.check-btn input {
+  display: none;
+}
+
+.clicker {
+  background: green;
+  padding: 5px 10px;
+}
+
+.hiddendiv {
+  background:white;
+ 
+  display: none;
+}
+
+.check-btn input:checked ~ .hiddendiv {
+  display: block;
 }
