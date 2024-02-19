@@ -12,6 +12,7 @@ ul, summary {
   list-style-type: none;
 }
 :root {
+  --color-topps: #FF1C1C;
   --color-jumbotron-blue: #b4d0e7;
   --color-footer: #000000;
   --color-button-blue: #0061ff;
@@ -141,7 +142,7 @@ h3 {
 }
 .section-two {
   display: flex;
-  justify-content: space-between;
+  padding-top: 50px;
 }
 .border-bottom {
   height: 40px;
@@ -175,7 +176,6 @@ h3 {
   width: 100%;
   padding-top: 20px;
 }
-
 .card {
   width: calc(100% / 3 - 20px);
   padding: 20px;
@@ -192,42 +192,58 @@ h3 {
 .section-six {
   margin-top: 150px;
 }
-.section-seven{
-  
-}
 .s-seven{
   width:calc(100% / 3);
   aspect-ratio: 1/1;
   border: 1px solid black;
 }
-.logos{
+.s-seven img{
+  width: 50%;
+}
+.seven-element{
+  float: left;
+  aspect-ratio: 1/1;
+  width: 50%;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
-.logos-card{
-  width: calc(100% / 2);
+#img-designit {
+  background-color: var(--color-designit-green);
 }
-.logos-card img{
-  width: 100%;
+#img-arizona {
+  background-color: var(--color-asu);
+}
+#img-florida {
+  background-color: var(--color-florida);
+}
+#img-topps {
+  background-color: var(--color-topps);
+}
+#img-world{
+  background-color: var(--color-dark-red);
+}
+#img-hearst{
+  background-color: var(--color-jumbotron-blue);
+}
+#img-planet{
+  background-color: var(--color-lonely-planet);
+}
+#img-clear{
+  background-color: var(--color-yellow);
 }
 .section-eight{
   background-color: var(--color-jumbotron-blue);
-  height: 300px;
 }
 .s-eight{
   display: flex;
   align-items: center;
-  justify-content: center;
-
 }
 .p-eight{
   color: var(--color-asu);
   font-size: 40px;
   font-weight: 700;
-  
+  padding: 50px 0;
 }
-
-
 .section-nine{
   padding-top: 100px;
 }
